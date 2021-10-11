@@ -1,0 +1,7 @@
+Creating a Static Website on GCS.
+
+1. Create bucket - gsutil mb -c standard -l asia-south1 --retention 60s gs://fizan-01
+
+2. Add a basic html from your local machine - gsutil cp index.html gs://fizan-01
+
+3. Give ACL Permissions - gsutil cp index.html gs://fizan-01
