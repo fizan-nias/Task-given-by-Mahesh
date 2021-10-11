@@ -41,17 +41,17 @@ do
 case $opt in
 "opt1-Delete")
 echo "choose 1"
-gcloud compute instances delete ayan
+gcloud compute instances delete fizan
 echo "your instance is deleted"
 
 "opt2-Stop")
 echo "choose 2"
-gcloud compute instances stop ayan
+gcloud compute instances stop fizan
 echo "instance stopped"
 ;;
 "opt3-start")
 echo "choose 3"
-gcloud compute instances start ayan
+gcloud compute instances start fizan
 echo "instance started"
 ;;
 "quit")
